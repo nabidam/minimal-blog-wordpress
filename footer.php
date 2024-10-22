@@ -11,24 +11,22 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'minilog' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'minilog' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'minilog' ), 'minilog', '<a href="https://github.com/nabidam/">Navid</a>' );
-				?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+<footer id="colophon" class="p-10">
+	<div class="flex justify-center gap-2">
+		<div>
+			ساخته شده با ❤️
+		</div>
+		<span class="sep"> | </span>
+		<div>
+			طراحی توسط <a href="https://github.com/nabidam"
+				class="visited:text-white text-lg decoration-wavy underline decoration-[#d4d4d4] decoration-1">نوید</a>
+		</div>
+	</div><!-- .site-info -->
+</footer><!-- #colophon -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
 
 </body>
+
 </html>
