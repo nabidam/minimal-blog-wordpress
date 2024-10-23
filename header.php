@@ -35,12 +35,15 @@
 
 				<a href="<?php echo esc_url(home_url('/')); ?>" rel="home"
 					class="visited:text-white flex gap-1 justify-center items-center">
-					<h1 class="text-xl">
-						<?php bloginfo('name'); ?>
-					</h1>
+					<?php if (get_theme_mod('display_site_title', true)): ?>
+						<h1 class="text-xl">
+							<?php bloginfo('name'); ?>
+						</h1>
+					<?php endif; ?>
 
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_brain.png"
-						class="w-6 h-full" />
+					<?php if (function_exists('the_custom_logo')) {
+						the_custom_logo();
+					} ?>
 				</a>
 			</div>
 			<div class="flex flex-row gap-1">
