@@ -7,7 +7,7 @@
 }
 
 a:visited {
-	color: white;
+	color: unset;
 }
 
 .custom-logo {
@@ -32,4 +32,8 @@ a:visited {
 
 .entry-title {
 	font-size: 2rem;
+}
+
+.entry-meta {
+	color: #6b7280 !important;
 }
