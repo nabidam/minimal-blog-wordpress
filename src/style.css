@@ -6,10 +6,6 @@
 	--bg-main: #292c34;
 }
 
-a:visited {
-	color: unset;
-}
-
 .custom-logo {
 	max-width: 32px !important;
 }
@@ -36,4 +32,22 @@ a:visited {
 
 .entry-meta {
 	color: #6b7280 !important;
+}
+
+.more-link {
+	border: 2px solid #6b7280;
+	width: fit-content;
+	padding: 4px 16px 4px 16px;
+	border-radius: 6px;
+	color: #6b7280 !important;
+	transition: all 0.3s ease-in-out;
+}
+
+.more-link:hover {
+	border-color: #fff;
+	color: #fff !important;
+}
+
+a:visited {
+	color: unset;
 }

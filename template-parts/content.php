@@ -37,10 +37,10 @@
 			sprintf(
 				wp_kses(
 					/* translators: %s: Name of current post. Only visible to screen readers */
-					__('بیشتر<span class="screen-reader-text"> "%s"</span>', 'minilog'),
+					__('ادامه؟<span class="screen-reader-text"> "%s"</span>', 'minilog'),
 					array(
 						'span' => array(
-							'class' => array("text-xl"),
+							'class' => array(),
 						),
 					)
 				),
