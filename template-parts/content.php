@@ -9,7 +9,7 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class('flex flex-col gap-4'); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class('flex flex-col gap-4 w-full'); ?>>
 	<header class="entry-header flex justify-between items-center">
 		<?php
 		if (is_singular()):

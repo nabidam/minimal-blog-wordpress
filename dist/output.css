@@ -615,18 +615,6 @@ video {
   border-radius: 0.375rem;
 }
 
-.rounded-sm {
-  border-radius: 0.125rem;
-}
-
-.rounded-xl {
-  border-radius: 0.75rem;
-}
-
-.border {
-  border-width: 1px;
-}
-
 .border-2 {
   border-width: 2px;
 }
@@ -646,10 +634,6 @@ video {
 
 .p-10 {
   padding: 2.5rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
 }
 
 .px-10 {
@@ -714,10 +698,6 @@ video {
   --bg-main: #292c34;
 }
 
-a:visited {
-  color: unset;
-}
-
 .custom-logo {
   max-width: 32px !important;
 }
@@ -740,6 +720,25 @@ a:visited {
 
 .entry-meta {
   color: #6b7280 !important;
+}
+
+.more-link {
+  border: 2px solid #6b7280;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 4px 16px 4px 16px;
+  border-radius: 6px;
+  color: #6b7280 !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.more-link:hover {
+  border-color: #fff;
+  color: #fff !important;
+}
+
+a:visited {
+  color: unset;
 }
 
 .visited\:text-white:visited {
