@@ -570,20 +570,16 @@ video {
   height: 5rem;
 }
 
-.h-full {
-  height: 100%;
-}
-
-.w-6 {
-  width: 1.5rem;
-}
-
 .w-full {
   width: 100%;
 }
 
 .flex-row {
   flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-center {
@@ -604,6 +600,10 @@ video {
 
 .gap-2 {
   gap: 0.5rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .bg-bg-main {
@@ -666,8 +666,28 @@ video {
   --bg-main: #292c34;
 }
 
+a:visited {
+  color: white;
+}
+
 .custom-logo {
   max-width: 32px !important;
+}
+
+.post-thumbnail img {
+  border-radius: 16px;
+  width: 100%;
+  max-width: 496px;
+  box-shadow: 0px 30px 100px -20px rgba(110, 110, 110, 1);
+  transition: all 0.3s ease-in-out;
+}
+
+.post-thumbnail img:hover {
+  box-shadow: 0px 30px 100px 10px rgba(115, 114, 115, 1);
+}
+
+.entry-title {
+  font-size: 2rem;
 }
 
 .visited\:text-white:visited {
