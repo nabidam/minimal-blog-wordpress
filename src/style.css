@@ -5,3 +5,7 @@
 :root {
 	--bg-main: #292c34;
 }
+
+.custom-logo {
+	max-width: 32px !important;
+}
